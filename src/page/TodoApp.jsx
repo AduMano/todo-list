@@ -7,18 +7,7 @@ import TaskComp from "./../components/Task";
 
 const TodoApp = () => {
   // States
-  const [tasks, setTasks] = useState([
-    "GO Away",
-    "YEAHHH",
-    "YEAHHH",
-    "YEAHHH",
-    "YEAHHH",
-    "YEAHHH",
-    "YEAHHH",
-    "YEAHHH",
-    "YEAHHH",
-    "YEAHHH",
-  ]);
+  const [tasks, setTasks] = useState([]);
 
   // Functions
   const DeleteList = (index) => {
